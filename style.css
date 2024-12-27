@@ -1,3 +1,33 @@
 body {
   font-family: "roboto";
+  margin: 0;
+}
+
+header, .sectionOne{
+  display: flex;
+  background-color: #1F2937;
+  font: 18px;
+  color: #E5E7EB;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+h4 {
+  font: 24px;
+  color: #F9FAF8;
 }
