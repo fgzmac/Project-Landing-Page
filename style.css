@@ -85,3 +85,29 @@ img {
   margin-right: 225px;
   margin-top: 5px;
  }
+
+ .sectionTwo {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .row-of-squares {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ }
+
+ .blue-square {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: #3882F6;
+  padding: 80px;
+ }
+
+ h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+ }
