@@ -95,6 +95,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 50px;
  }
 
  .blue-square {
@@ -109,5 +110,21 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
+ }
+
+ .sectionThree {
+  background-color: lightgray;
+  padding: 100px;
+  margin-top: 30px;
+ }
+
+ .section-three-quote {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .section-three-quotist {
+  margin-left: 650px;
  }
