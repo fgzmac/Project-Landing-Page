@@ -58,6 +58,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   width: 50%;
+  margin-bottom: 20px;
 }
 
 .one-left {
@@ -71,3 +72,16 @@ h1 {
 img {
   margin: 50px;
 }
+
+.p-first {
+  margin-left: 125px;
+}
+
+ .button-section-one {
+  width: 15%;
+  padding: 5px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin-right: 225px;
+  margin-top: 5px;
+ }
