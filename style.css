@@ -151,10 +151,44 @@ img {
  }
 
  .sectionFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  height: 300px;
+  height: 280px;
+ }
+
+ .section-four-blue-box {
+  display: flex;
+  background-color: #3882F6;
+  width: 70%;
+  height: 50%;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
  }
 
  .section-four-text-container {
-  background-color: #3882F6;
+  width: 70%;
  }
+
+  .rightbutton {
+    justify-content: center;
+    width: 180%;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 6px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #F9FAF8;
+  }
