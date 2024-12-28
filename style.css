@@ -11,12 +11,12 @@ header, footer {
   background-color: #1F2937;
 }
 
-#header-logo {
+#header-logo, h4 {
   font-size: 24px;
   color: #F9FAF8;
 }
 
-.header-link, #one-paragraph {
+.header-link, #one-paragraph, .section-four-text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -78,8 +78,9 @@ img {
 }
 
  .button-section-one {
-  width: 15%;
-  padding: 5px;
+  width: 14%;
+  border-radius: 8px;
+  padding: 7px;
   background-color: #3882F6;
   color: #F9FAF8;
   margin-right: 225px;
@@ -94,37 +95,66 @@ img {
  .row-of-squares {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  margin-bottom: 50px;
+  gap: 40px;
+  margin-bottom: 80px;
+ }
+
+ .square-container {
+  display: flex;
+  flex-direction: column;
  }
 
  .blue-square {
-  display: flex;
-  flex-direction: row;
   border-style: solid;
+  border-width: 5px;
   border-color: #3882F6;
   padding: 80px;
+  border-radius: 12px;
  }
+ 
 
  h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+ }
+
+ .section-two-text {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  
  }
 
  .sectionThree {
-  background-color: lightgray;
+  background-color: #E5E7EB;
   padding: 100px;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 90px;
  }
 
  .section-three-quote {
-  font-size: 30px;
+  font-size: 36px;
+  color: #1F2937;
   display: flex;
   justify-content: center;
  }
 
  .section-three-quotist {
-  margin-left: 650px;
+  margin-left: 900px;
+  font-size: 22px;
+ }
+
+ .sectionFour {
+  background-color: white;
+  height: 300px;
+ }
+
+ .section-four-text-container {
+  background-color: #3882F6;
  }
